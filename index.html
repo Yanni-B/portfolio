@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio – Ton Nom</title>
+    <title>Portfolio – Yanni Bourechouche</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Yanni Bourechouche</h1>
-        <p>Développeur logiciel | Mobile | Backend</p>
-        <a href="#projects" class="btn">Voir mes projets</a>
+        <h1 class="fade-slide">Yanni Bourechouche</h1>
+        <p class="fade-slide">Développeur logiciel | Mobile | Backend</p>
+        <a href="#projects" class="btn fade-slide">Voir mes projets</a>
     </header>
 
     <section id="skills">
-        <h2>Compétences</h2>
+        <h2 class="fade-slide">Compétences</h2>
         <div class="skills-grid">
-            <div>Java</div>
-            <div>Spring Boot</div>
-            <div>JavaScript / TypeScript</div>
-            <div>React Native</div>
-            <div>Node.js</div>
-            <div>SQL / MariaDB</div>
-            <div>Git / GitHub</div>
-            <div>Docker</div>
+            <div class="fade-slide">Java</div>
+            <div class="fade-slide">Spring Boot</div>
+            <div class="fade-slide">JavaScript / TypeScript</div>
+            <div class="fade-slide">React Native</div>
+            <div class="fade-slide">Node.js</div>
+            <div class="fade-slide">SQL / MariaDB</div>
+            <div class="fade-slide">Git / GitHub</div>
+            <div class="fade-slide">Docker</div>
         </div>
     </section>
 
     <section id="projects">
-        <h2>Projets</h2>
+        <h2 class="fade-slide">Projets</h2>
 
-        <div class="project">
+        <div class="project fade-slide">
             <h3>CryptoExplorer (React Native)</h3>
             <p>Application mobile affichant les cryptomonnaies en temps réel via l’API CoinGecko, avec pagination, tri et throttling API.</p>
-            <a href="https://github.com/..." target="_blank" class="btn">Voir sur GitHub</a>
+            <a href="https://github.com/Yanni-B/CryptoExplorerMobile.git" target="_blank" class="btn">Voir sur GitHub</a>
         </div>
 
-        <div class="project">
-            <h3>TodoAPI (Spring Boot + Docker)</h3>
-            <p>API REST avec CRUD complet, base MariaDB, architecture en couches et conteneurisation via Docker.</p>
-            <a href="https://github.com/..." target="_blank" class="btn">Voir sur GitHub</a>
+        <div class="project fade-slide">
+            <h3>Application gestion hôpitaux</h3>
+            <p>Application fullstack qui gère les hôpitaux (rendez-vous, inscriptions, gestion médecins) en React.</p>
+            <a href="https://github.com/Yves-Shaheem/applicationWeb.git" target="_blank" class="btn">Voir sur GitHub</a>
         </div>
 
-        <div class="project">
-            <h3>Jeu Unity 3D</h3>
+        <div class="project fade-slide">
+            <h3>Jeu Unity 2D</h3>
             <p>Projet de jeu TPS avec déplacements, collisions et scripts en C#.</p>
-            <a href="https://github.com/..." target="_blank" class="btn">Voir sur GitHub</a>
+            <a href="https://github.com/Yanni-B/JeuxVideo.git" target="_blank" class="btn">Voir sur GitHub</a>
+        </div>
+
+        <div class="project fade-slide">
+            <h3>Application tutorat (TutorMe)</h3>
+            <p>Gestion tutorat (Inscription, rendez-vous, cheminement scolaire avec notes) en C#.</p>
+            <a href="https://github.com/Yanni-B/TutorMe.git" target="_blank" class="btn">Voir sur GitHub</a>
         </div>
     </section>
 
     <footer>
         <p>Contact : bourechoucheyanni@gmail.com / 438-233-5888</p>
-        <p>GitHub : <a href="https://github.com/">Ton GitHub</a></p>
+        <p>GitHub : <a href="https://github.com/Yanni-B">Yanni-B</a></p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
